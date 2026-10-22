@@ -1,0 +1,58 @@
+{
+  "active_candidates": [
+    "persistence",
+    "moving_average_6",
+    "moving_average_12",
+    "seasonal_naive_12"
+  ],
+  "active_model": "persistence",
+  "active_model_description": "Last observed value repeated for every horizon.",
+  "candidate_models": [
+    "persistence",
+    "moving_average_6",
+    "moving_average_12",
+    "moving_average_24",
+    "seasonal_naive_12",
+    "seasonal_naive_24",
+    "seasonal_naive_48",
+    "seasonal_random_walk_48",
+    "ses",
+    "ar_2",
+    "ar_6",
+    "ridge_10",
+    "hist_gradient_boosting",
+    "ensemble_p_ar6",
+    "ensemble_p_ma12_ar6",
+    "ensemble_p_ma12_s48",
+    "ensemble_p_ma12_ar6_s48",
+    "ensemble_p_ma12_ar6_s48_ridge"
+  ],
+  "cpu_file_sha256": "f961964e51f2250534a1273ce8b5aec76816b1ef9628d6356daad0f5af345440",
+  "created_at_utc": "2026-10-21T17:16:57.375661+00:00",
+  "data_dir": "challenge_data",
+  "holdout_end": 39900,
+  "holdout_start": 33000,
+  "horizon": 24,
+  "intervals": {
+    "0.80": 0.2968306421692777,
+    "0.90": 0.38798837152670096
+  },
+  "meta_file_sha256": "acc07b52b3757d0c62628fea9cc988933aac93c48d40a8e4a527a15c10e1334b",
+  "min_train": 50,
+  "n_holdout": 24,
+  "n_observations": 134,
+  "n_train": 110,
+  "selected_model": "ensemble_p_ar6",
+  "selected_model_description": "Equal-weight combination of persistence and AR(6).",
+  "selected_model_family": "ensemble",
+  "selection_reason": "Lowest mean fold MAE among models that stayed inside the training range and did not materially worsen peak-period error.",
+  "train_end": 32700,
+  "train_start": 0,
+  "validation_origins": [
+    50,
+    62,
+    74,
+    86
+  ],
+  "validation_step": 12
+}

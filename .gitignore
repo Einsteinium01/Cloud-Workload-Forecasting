@@ -1,4 +1,17 @@
 *.egg-info/
 .venv/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 __pycache__/
+*.py[cod]
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+challenge_data/
+
+# Scratch files
+series.png
+*.log
+.DS_Store

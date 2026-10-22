@@ -5,12 +5,21 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "cloud-workload-forecasting"
 version = "1.0.0"
-description = "Candidate starter utilities for a cloud workload forecasting take-home"
+description = "Cloud workload forecasting challenge: analysis, validation, and forecasts"
 requires-python = ">=3.11"
-dependencies = ["numpy>=1.26", "pandas>=2.0"]
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "scikit-learn>=1.4",
+]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.0"]
+analysis = ["matplotlib>=3.8"]
+dev = ["pytest>=8.0", "matplotlib>=3.8"]
+
+[project.scripts]
+cwfc-predict = "cwfc.predict:main"
+cwfc-analyze = "cwfc.analyze:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

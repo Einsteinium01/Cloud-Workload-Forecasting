@@ -1,0 +1,43 @@
+| check | value |
+|---|---|
+| required_columns_present | yes |
+| n_cpu_rows | 1340000 |
+| n_unique_vms | 10000 |
+| n_unique_timestamps | 134 |
+| timestamp_min | 0 |
+| timestamp_max | 39900 |
+| n_non_finite_avg_cpu | 0 |
+| n_avg_cpu_outside_0_100 | 0 |
+| n_min_avg_max_order_violations | 0 |
+| n_duplicate_vm_timestamp_rows | 0 |
+| no_duplicate_vm_timestamps | yes |
+| observations_per_vm_min | 134 |
+| observations_per_vm_max | 134 |
+| vm_observation_counts_complete | yes |
+| n_observations_per_vm | 134 |
+| cadence_seconds_mode | 300 |
+| n_irregular_intervals | 0 |
+| max_gap_seconds | 300 |
+| regular_five_minute_cadence | yes |
+| metadata_available | yes |
+| n_metadata_rows | 10000 |
+| n_metadata_unique_vms | 10000 |
+| n_duplicate_metadata_vm_ids | 0 |
+| n_vms_without_metadata | 0 |
+| n_metadata_without_cpu | 0 |
+| metadata_covers_all_cpu_vms | yes |
+| metadata_one_row_per_vm | yes |
+| vm_created_min | 0 |
+| vm_created_max | 0 |
+| vm_deleted_min | 40500 |
+| vm_deleted_max | 2591400 |
+| vm_category_counts | {'Delay-insensitive': 6180, 'Interactive': 3091, 'Unknown': 729} |
+| virtual_core_bucket_counts | {'2': 7534, '4': 1908, '8': 486, '24': 62, '>24': 10} |
+| n_target_timestamps | 134 |
+| active_vm_count_min | 10000 |
+| active_vm_count_max | 10000 |
+| aggregate_cpu_utilization_min | 8.9836 |
+| aggregate_cpu_utilization_max | 9.9122 |
+| aggregate_cpu_utilization_mean | 9.3881 |
+| aggregate_cpu_utilization_std | 0.1943 |
+| n_target_timestamps_with_missing_cpu | 0 |

@@ -1,0 +1,20 @@
+| model | family | n_folds | n_out_of_range_folds | mean_fold_mae | median_fold_mae | max_fold_mae | pooled_mae | pooled_rmse | pooled_peak_mae | eligible | selected |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| ensemble_p_ar6 | ensemble | 4 | 0 | 0.1977 | 0.1769 | 0.2834 | 0.1977 | 0.2358 | 0.2631 | yes | yes |
+| seasonal_random_walk_48 | baseline | 4 | 0 | 0.1989 | 0.2188 | 0.2708 | 0.1989 | 0.2489 | 0.2570 | yes | no |
+| ensemble_p_ma12_ar6_s48 | ensemble | 4 | 0 | 0.1993 | 0.1742 | 0.2840 | 0.1993 | 0.2358 | 0.2777 | yes | no |
+| ensemble_p_ma12_s48 | ensemble | 4 | 0 | 0.2008 | 0.1780 | 0.2796 | 0.2008 | 0.2377 | 0.2733 | yes | no |
+| persistence | baseline | 4 | 0 | 0.2056 | 0.2003 | 0.2975 | 0.2056 | 0.2540 | 0.2591 | yes | no |
+| ensemble_p_ma12_ar6 | ensemble | 4 | 0 | 0.2156 | 0.2107 | 0.2970 | 0.2156 | 0.2523 | 0.2765 | yes | no |
+| ses | statistical | 4 | 0 | 0.2342 | 0.2553 | 0.2974 | 0.2342 | 0.2756 | 0.2818 | yes | no |
+| ensemble_p_ma12_ar6_s48_ridge | ensemble | 4 | 0 | 0.1853 | 0.1529 | 0.3055 | 0.1853 | 0.2267 | 0.2942 | no | no |
+| ridge_10 | ml | 4 | 1 | 0.1887 | 0.1211 | 0.3938 | 0.1887 | 0.2511 | 0.3618 | no | no |
+| seasonal_naive_48 | baseline | 4 | 0 | 0.1972 | 0.2200 | 0.2729 | 0.1972 | 0.2685 | 0.3104 | no | no |
+| ar_6 | statistical | 4 | 0 | 0.2004 | 0.1849 | 0.2987 | 0.2004 | 0.2369 | 0.2942 | no | no |
+| ar_2 | statistical | 4 | 0 | 0.2035 | 0.1861 | 0.3013 | 0.2035 | 0.2392 | 0.3149 | no | no |
+| hist_gradient_boosting | ml | 4 | 0 | 0.2091 | 0.1970 | 0.3484 | 0.2091 | 0.2693 | 0.3215 | no | no |
+| moving_average_12 | baseline | 4 | 0 | 0.2545 | 0.2719 | 0.3549 | 0.2545 | 0.2972 | 0.3034 | no | no |
+| seasonal_naive_12 | baseline | 4 | 0 | 0.2634 | 0.2986 | 0.3549 | 0.2634 | 0.3142 | 0.3343 | no | no |
+| moving_average_6 | baseline | 4 | 0 | 0.2659 | 0.3038 | 0.3164 | 0.2659 | 0.3077 | 0.3001 | no | no |
+| moving_average_24 | baseline | 4 | 0 | 0.2780 | 0.2904 | 0.3584 | 0.2780 | 0.3096 | 0.3434 | no | no |
+| seasonal_naive_24 | baseline | 4 | 0 | 0.3124 | 0.3159 | 0.3584 | 0.3124 | 0.3517 | 0.3766 | no | no |
