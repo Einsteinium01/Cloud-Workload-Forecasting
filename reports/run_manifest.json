@@ -28,7 +28,7 @@
     "ensemble_p_ma12_ar6_s48_ridge"
   ],
   "cpu_file_sha256": "f961964e51f2250534a1273ce8b5aec76816b1ef9628d6356daad0f5af345440",
-  "created_at_utc": "2026-10-21T17:16:57.375661+00:00",
+  "created_at_utc": "2026-10-23T14:08:07.812769+00:00",
   "data_dir": "challenge_data",
   "holdout_end": 39900,
   "holdout_start": 33000,
